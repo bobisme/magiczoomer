@@ -15,7 +15,6 @@ popover.appendTo('body');
 var sidere = /wide\.html$/;
 
 var biggify = function($img, sideways) {
-    console.log('show card: ' + $img.attr('src'), sideways);
     var w = $img.width(),
         h = $img.height(),
         top = $img.position().top,
@@ -39,7 +38,6 @@ var biggify = function($img, sideways) {
 };
 
 function debiggify() {
-    console.log('hide card');
     popover.css({
         'box-shadow': '0',
         'transform': 'scale(1) rotate(0)',
