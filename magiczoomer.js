@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name       Mythic Spoiler Expander
-// @namespace  http://expander.mythicspoiler.shiftsource.com/
+// @namespace  https://github.com/bobisme/magiczoomer
 // @version    0.1
 // @description  middle click to expand images on mythic spoiler, it rotates fuse cards
 // @match      http://mythicspoiler.com/*
